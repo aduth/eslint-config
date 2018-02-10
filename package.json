@@ -1,0 +1,26 @@
+{
+  "name": "@aduth/eslint-config",
+  "version": "1.0.0",
+  "description": "Andrew Duthie's personal ESLint configuration",
+  "main": ".eslintrc.json",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aduth/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aduth/eslint-config/issues"
+  },
+  "author": {
+    "name": "Andrew Duthie",
+    "email": "andrew@andrewduthie.com",
+    "url": "http://andrewduthie.com"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "*"
+  }
+}
