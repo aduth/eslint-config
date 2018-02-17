@@ -1,4 +1,4 @@
-#### v2.0.0 (TBD)
+#### v2.0.0 (2018-02-17)
 
 - New variations: `@aduth/eslint-config/base`, `@aduth/eslint-config/es6`, `@aduth/eslint-config/es5`
 - New peer dependency: `eslint-plugin-jsdoc`
