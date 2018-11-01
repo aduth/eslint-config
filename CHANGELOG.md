@@ -1,4 +1,4 @@
-## v3.0.0 (Unreleased)
+## v3.0.0 (2018-10-31)
 
 - Bump minimum peer dependencies to `eslint@^5.8.0` and `eslint-plugin-jsdoc@^3.9.1` (previously `eslint@^4.18.0` and `eslint-plugin-jsdoc@^3.4.1`)
 
