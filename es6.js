@@ -2,9 +2,7 @@ const base = require( './base' );
 
 module.exports = Object.assign( {}, base, {
 	parserOptions: {
-		ecmaFeatures: {
-			experimentalObjectRestSpread: true,
-		},
+		ecmaVersion: 2018,
 	},
 	rules: Object.assign( {}, base.rules, {
 		// Disable ES5

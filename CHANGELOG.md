@@ -1,4 +1,8 @@
-#### v2.0.0 (2018-02-17)
+## v3.0.0 (Unreleased)
+
+- Bump minimum peer dependencies to `eslint@^5.8.0` and `eslint-plugin-jsdoc@^3.9.1` (previously `eslint@^4.18.0` and `eslint-plugin-jsdoc@^3.4.1`)
+
+## v2.0.0 (2018-02-17)
 
 - New variations: `@aduth/eslint-config/base`, `@aduth/eslint-config/es6`, `@aduth/eslint-config/es5`
 - New peer dependency: `eslint-plugin-jsdoc`
@@ -9,6 +13,6 @@
    - ES5: `one-var`, `one-var-declaration-per-line`, `vars-on-top`
    - ES6: `no-var`, `prefer-spread`
 
-#### v1.0.0 (2018-02-10)
+## v1.0.0 (2018-02-10)
 
 - Initial release
