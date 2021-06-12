@@ -3,6 +3,7 @@
 ### Breaking Changes
 
 - `es6` ruleset is renamed to `esnext`.
+- Bump minimum peer dependencies to `eslint@^7.28.0` and `eslint-plugin-jsdoc@^35.1.3` (previously `eslint@^5.8.0` and `eslint-plugin-jsdoc@^3.9.1`).
 
 ### Enhancements
 
