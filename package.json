@@ -30,7 +30,7 @@
 	},
 	"license": "MIT",
 	"peerDependencies": {
-		"eslint": "^5.8.0",
-		"eslint-plugin-jsdoc": "^3.9.1"
+		"eslint": "^7.28.0",
+		"eslint-plugin-jsdoc": "^35.1.3"
 	}
 }
