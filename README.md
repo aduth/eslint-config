@@ -5,12 +5,14 @@ Andrew Duthie's personal [ESLint](https://eslint.org/) configurations.
 ## Installation
 
 ```
-npm install --save-dev @aduth/eslint-config eslint-plugin-jsdoc eslint
+npm install --save-dev eslint @aduth/eslint-config
 ```
 
-`eslint` and `eslint-plugin-jsdoc` are peer dependencies of these configurations, and must be installed in your project. For information about installing ESLint, refer to the [Getting Started with ESLint guide](https://eslint.org/docs/user-guide/getting-started).
+`eslint` is a peer dependency of these configurations and must be installed in your project.
 
-## Usage
+The following peer dependencies are optional and will enable additional rules when present:
+
+- `eslint-plugin-jsdoc`
 
 ## Usage
 

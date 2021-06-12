@@ -4,6 +4,10 @@
 
 - `es6` ruleset is renamed to `esnext`.
 
+### Enhancements
+
+- Most peer dependencies are now optional, enabling additional rules when present in the consuming project.
+
 ## v3.0.0 (2018-10-31)
 
 - Bump minimum peer dependencies to `eslint@^5.8.0` and `eslint-plugin-jsdoc@^3.9.1` (previously `eslint@^4.18.0` and `eslint-plugin-jsdoc@^3.4.1`)
