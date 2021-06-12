@@ -1,27 +1,31 @@
 {
-  "name": "@aduth/eslint-config",
-  "version": "3.0.0",
-  "description": "Andrew Duthie's personal ESLint configuration",
-  "main": "es6.js",
-  "keywords": [
-    "eslint",
-    "eslint-config"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aduth/eslint-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/aduth/eslint-config/issues"
-  },
-  "author": {
-    "name": "Andrew Duthie",
-    "email": "andrew@andrewduthie.com",
-    "url": "https://andrewduthie.com"
-  },
-  "license": "MIT",
-  "peerDependencies": {
-    "eslint": "^5.8.0",
-    "eslint-plugin-jsdoc": "^3.9.1"
-  }
+	"name": "@aduth/eslint-config",
+	"version": "3.0.0",
+	"description": "Andrew Duthie's personal ESLint configuration",
+	"type": "module",
+	"main": "es6.js",
+	"engines": {
+		"node": ">=14"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aduth/eslint-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/aduth/eslint-config/issues"
+	},
+	"author": {
+		"name": "Andrew Duthie",
+		"email": "andrew@andrewduthie.com",
+		"url": "https://andrewduthie.com"
+	},
+	"license": "MIT",
+	"peerDependencies": {
+		"eslint": "^5.8.0",
+		"eslint-plugin-jsdoc": "^3.9.1"
+	}
 }
