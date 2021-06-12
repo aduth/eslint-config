@@ -1,6 +1,6 @@
 import base from './base.js';
 
-export default {
+export default /** @type {import('eslint').Linter.Config} */ ({
 	...base,
 	parserOptions: {
 		ecmaVersion: 5,
@@ -17,4 +17,4 @@ export default {
 		'one-var-declaration-per-line': ['error', 'initializations'],
 		'vars-on-top': 'error',
 	},
-};
+});

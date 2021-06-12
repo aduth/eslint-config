@@ -1,9 +1,10 @@
 import base from './base.js';
 
-export default {
+export default /** @type {import('eslint').Linter.Config} */ ({
 	...base,
 	parserOptions: {
-		ecmaVersion: 2018,
+		ecmaVersion: 2021,
+		sourceType: 'module',
 	},
 	rules: {
 		...base.rules,
@@ -17,4 +18,4 @@ export default {
 		'no-var': 'error',
 		'prefer-spread': 'error',
 	},
-};
+});
