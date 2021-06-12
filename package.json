@@ -4,6 +4,11 @@
 	"description": "Andrew Duthie's personal ESLint configuration",
 	"type": "module",
 	"main": "esnext.js",
+	"exports": {
+		".": "./esnext.js",
+		"./esnext": "./esnext.js",
+		"./es5": "./es5.js"
+	},
 	"engines": {
 		"node": ">=14"
 	},
