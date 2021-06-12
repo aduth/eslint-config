@@ -33,7 +33,7 @@ export default {
 		'constructor-super': 'error',
 		curly: 'error',
 		'dot-notation': 'error',
-		eqeqeq: ['error', 'allow-null'],
+		eqeqeq: 'error',
 		'eol-last': 'error',
 		'func-call-spacing': 'error',
 		'generator-star-spacing': ['error', { before: false, after: true }],
