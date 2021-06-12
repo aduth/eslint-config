@@ -12,12 +12,12 @@ npm install --save-dev @aduth/eslint-config eslint-plugin-jsdoc eslint
 
 ## Usage
 
-```js
-module.exports = {
-	// ...
+## Usage
 
-	extends: '@aduth/eslint-config',
-};
+```json
+{
+	"extends": "@aduth/eslint-config"
+}
 ```
 
 Refer to the [ESLint guide on Extending Configuration Files](https://eslint.org/docs/user-guide/configuring#extending-configuration-files).
