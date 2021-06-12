@@ -6,6 +6,7 @@
 
 ### Enhancements
 
+- Add support for Prettier rule configuration via `eslint-config-prettier` and `eslint-plugin-prettier`.
 - Most peer dependencies are now optional, enabling additional rules when present in the consuming project.
 
 ## v3.0.0 (2018-10-31)

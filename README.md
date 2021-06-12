@@ -13,6 +13,7 @@ npm install --save-dev eslint @aduth/eslint-config
 The following peer dependencies are optional and will enable additional rules when present:
 
 - `eslint-plugin-jsdoc`
+- `eslint-plugin-prettier` and `eslint-config-prettier`
 
 ## Usage
 
