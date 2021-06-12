@@ -8,7 +8,7 @@ export default /** @type {import('eslint').Linter.Config} */ ({
 	rules: {
 		...base.rules,
 
-		// Disable ES6
+		// Disable ESNext
 		'no-var': 'off',
 		'prefer-spread': 'off',
 

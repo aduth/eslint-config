@@ -29,7 +29,7 @@ The configuration includes only rules. You will need to provide environment and 
 The default configuration is optimized for ES2015+. The following variations are available:
 
 - `@aduth/eslint-config/base`: Minimal subset of common rules
-- `@aduth/eslint-config/es6`: Rules optimized for ES2015+
+- `@aduth/eslint-config/esnext`: Rules optimized for ES2015+
 - `@aduth/eslint-config/es5`: Rules optimized for ES5 only (assigns `parserOption.ecmaVersion: 5`)
 
 ## License

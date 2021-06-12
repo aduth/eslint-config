@@ -3,7 +3,7 @@
 	"version": "3.0.0",
 	"description": "Andrew Duthie's personal ESLint configuration",
 	"type": "module",
-	"main": "es6.js",
+	"main": "esnext.js",
 	"engines": {
 		"node": ">=14"
 	},

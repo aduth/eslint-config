@@ -14,7 +14,7 @@ export default /** @type {import('eslint').Linter.Config} */ ({
 		'one-var-declaration-per-line': ['off', 'initializations'],
 		'vars-on-top': 'off',
 
-		// ES6 specific
+		// ESNext specific
 		'no-var': 'error',
 		'prefer-spread': 'error',
 	},
