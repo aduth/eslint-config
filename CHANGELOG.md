@@ -11,6 +11,7 @@
 - Add support for Prettier rule configuration via `eslint-config-prettier` and `eslint-plugin-prettier`.
 - Add support for TypeScript rule configuration via `@typescript-eslint/eslint-plugin` and `@typescript-eslint/parser`.
 - Most peer dependencies are now optional, enabling additional rules when present in the consuming project.
+- The `esnext` ruleset enables `es6` env value by default.
 
 ## v3.0.0 (2018-10-31)
 

@@ -8,6 +8,9 @@ module.exports = deepmerge(
 			ecmaVersion: 2021,
 			sourceType: 'module',
 		},
+		env: {
+			es6: true,
+		},
 		rules: {
 			// Disable ES5
 			'one-var': 'off',
