@@ -1,4 +1,4 @@
-## v4.0.0 (Unreleased)
+## v4.0.0 (2021-06-13)
 
 ### Breaking Changes
 
