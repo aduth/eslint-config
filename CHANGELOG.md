@@ -3,7 +3,7 @@
 ### Breaking Changes
 
 - `es6` ruleset is renamed to `esnext`.
-- Bump minimum peer dependencies to `eslint@^7.28.0` and `eslint-plugin-jsdoc@^35.1.3` (previously `eslint@^5.8.0` and `eslint-plugin-jsdoc@^3.9.1`).
+- Bump minimum peer dependencies to `eslint@>=7.28.0` and `eslint-plugin-jsdoc@>=35.1.3` (previously `eslint@^5.8.0` and `eslint-plugin-jsdoc@^3.9.1`). Peer dependencies now use `>=` instead of `^` to reduce noise with future major version releases. Note that there is a possibility of breaking changes in future major versions if peer dependencies remove rules.
 - Most stylistic rules have been removed. Install `eslint-config-prettier` and `eslint-plugin-prettier` as peer dependencies to enforce style.
 - Many new rules have been enabled:
   - `default-case-last`
