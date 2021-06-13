@@ -9,7 +9,6 @@ module.exports = deepmerge(
 			camelcase: 'error',
 			'constructor-super': 'error',
 			'default-case-last': 'error',
-			'default-param-last': 'error',
 			'dot-notation': 'error',
 			eqeqeq: 'error',
 			'for-direction': 'error',

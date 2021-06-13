@@ -1,4 +1,9 @@
-## v4.0.1 (Unreleased)
+## v4.1.0 (Unreleased)
+
+### Backward-Compatible Changes
+
+- `default-param-last` is no longer enforced, since it's incompatible with common reducer / Redux state initialization pattern.
+
 ## v4.0.1 (2021-06-13)
 
 ### Bug Fixes
