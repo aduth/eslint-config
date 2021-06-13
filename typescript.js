@@ -1,4 +1,8 @@
-const dependencies = ['@typescript-eslint/parser', '@typescript-eslint/eslint-plugin'];
+const dependencies = [
+	'@typescript-eslint/parser',
+	'@typescript-eslint/eslint-plugin',
+	'typescript',
+];
 
 const config = {
 	parser: '@typescript-eslint/parser',

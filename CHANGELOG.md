@@ -1,3 +1,9 @@
+## v4.0.1 (Unreleased)
+
+### Bug Fixes
+
+- Correctly defines TypeScript peer dependencies to avoid errors about missing parser dependency.
+
 ## v4.0.0 (2021-06-13)
 
 ### Breaking Changes
