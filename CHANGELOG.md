@@ -5,6 +5,31 @@
 - `es6` ruleset is renamed to `esnext`.
 - Bump minimum peer dependencies to `eslint@^7.28.0` and `eslint-plugin-jsdoc@^35.1.3` (previously `eslint@^5.8.0` and `eslint-plugin-jsdoc@^3.9.1`).
 - Most stylistic rules have been removed. Install `eslint-config-prettier` and `eslint-plugin-prettier` as peer dependencies to enforce style.
+- Many new rules have been enabled:
+  - `default-case-last`
+  - `default-param-last`
+  - `for-direction`
+  - `getter-return`
+  - `jsdoc/check-alignment`
+  - `jsdoc/empty-tags`
+  - `jsdoc/no-multi-asterisks`
+  - `jsdoc/require-param-name`
+  - `jsdoc/require-param-type`
+  - `jsdoc/require-returns-check`
+  - `jsdoc/require-returns-type`
+  - `no-constructor-return`
+  - `no-constant-condition`
+  - `no-dupe-else-if`
+  - `no-global-assign`
+  - `no-import-assign`
+  - `no-invalid-regexp`
+  - `no-new-symbol`
+  - `no-obj-calls`
+  - `no-promise-executor-return`
+  - `no-throw-literal`
+  - `no-unsafe-optional-chaining`
+  - `require-await`
+  - `use-isnan`
 
 ### Enhancements
 
