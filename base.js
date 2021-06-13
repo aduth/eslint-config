@@ -2,7 +2,6 @@ const deepmerge = require('deepmerge');
 const optional = require('./optional.js');
 
 module.exports = deepmerge(
-	optional,
 	/** @type {import('eslint').Linter.Config} */ ({
 		rules: {
 			'array-callback-return': 'error',
@@ -71,5 +70,6 @@ module.exports = deepmerge(
 			'use-isnan': 'error',
 			'valid-typeof': 'error',
 		},
-	})
+	}),
+	optional
 );

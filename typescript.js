@@ -7,6 +7,10 @@ const config = {
 		'plugin:@typescript-eslint/recommended',
 		'plugin:@typescript-eslint/eslint-recommended',
 	],
+	rules: {
+		'no-shadow': 'off',
+		'@typescript-eslint/no-shadow': 'error',
+	},
 };
 
 module.exports = { dependencies, config };
