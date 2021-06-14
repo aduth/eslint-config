@@ -2,11 +2,11 @@
 	"name": "@aduth/eslint-config",
 	"version": "4.1.0",
 	"description": "Andrew Duthie's personal ESLint configuration",
-	"main": "esnext.js",
+	"main": "./rules/esnext.js",
 	"exports": {
-		".": "./esnext.js",
-		"./esnext": "./esnext.js",
-		"./es5": "./es5.js"
+		".": "./rules/esnext.js",
+		"./esnext": "./rules/esnext.js",
+		"./es5": "./rules/es5.js"
 	},
 	"keywords": [
 		"eslint",

@@ -1,5 +1,5 @@
 const deepmerge = require('deepmerge');
-const optional = require('./optional.js');
+const optional = require('./optional/index.js');
 
 module.exports = deepmerge(
 	/** @type {import('eslint').Linter.Config} */ ({
