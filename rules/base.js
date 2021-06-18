@@ -41,7 +41,6 @@ module.exports = deepmerge(
 			'no-new': 'error',
 			'no-new-symbol': 'error',
 			'no-obj-calls': 'error',
-			'no-promise-executor-return': 'error',
 			'no-sparse-arrays': 'error',
 			'no-redeclare': 'error',
 			'no-shadow': 'error',

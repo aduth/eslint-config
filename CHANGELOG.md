@@ -1,5 +1,9 @@
 ## v4.2.0 (Unreleased)
 
+### Backward-Compatible Changes
+
+- `no-promise-executor-return` is no longer enforced, since it makes for awkward call signatures for single line arrow functions, outweighing potential benefit from rule enforcement.
+
 ### Enhancements
 
 - Improve performance of optional ruleset opt-in detection.
