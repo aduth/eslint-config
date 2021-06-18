@@ -1,3 +1,9 @@
+## v4.2.0 (Unreleased)
+
+### Enhancements
+
+- Improve performance of optional ruleset opt-in detection.
+
 ## v4.1.0 (2021-06-13)
 
 ### Backward-Compatible Changes
