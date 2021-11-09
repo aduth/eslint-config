@@ -5,6 +5,7 @@
 - The following rules are now disabled:
   - `@typescript/no-explicit-any`
   - `@typescript/no-non-null-assertion`
+  - `@typescript-eslint/no-empty-function`
 
 ### Bug Fixes
 
