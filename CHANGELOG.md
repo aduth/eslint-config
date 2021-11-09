@@ -2,7 +2,9 @@
 
 ### Backward-Compatible Changes
 
-- `@typescript/no-explicit-any` is now disabled.
+- The following rules are now disabled:
+  - `@typescript/no-explicit-any`
+  - `@typescript/no-non-null-assertion`
 
 ### Bug Fixes
 
