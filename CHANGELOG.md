@@ -6,6 +6,7 @@
   - `@typescript/no-explicit-any`
   - `@typescript/no-non-null-assertion`
   - `@typescript-eslint/no-empty-function`
+  - `@typescript-eslint/ban-ts-comment`
 
 ### Bug Fixes
 
