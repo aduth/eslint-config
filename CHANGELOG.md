@@ -1,4 +1,8 @@
-## v4.2.2 (Unreleased)
+## v4.3.0 (Unreleased)
+
+### Backward-Compatible Changes
+
+- `@typescript/no-explicit-any` is now disabled.
 
 ### Bug Fixes
 
