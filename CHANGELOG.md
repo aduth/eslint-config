@@ -1,3 +1,9 @@
+## v4.2.2 (Unreleased)
+
+### Bug Fixes
+
+- Correctly identify unused vars in TypeScript configuration.
+
 ## v4.2.1 (2021-06-18)
 
 ### Bug Fixes
