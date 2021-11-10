@@ -4,7 +4,7 @@ const optional = require('./optional/index.js');
 module.exports = deepmerge(
 	/** @type {import('eslint').Linter.Config} */ ({
 		rules: {
-			'array-callback-return': 'error',
+			'array-callback-return': ['error', { allowImplicit: true }],
 			'block-scoped-var': 'error',
 			camelcase: 'error',
 			'constructor-super': 'error',

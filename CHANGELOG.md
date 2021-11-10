@@ -1,3 +1,9 @@
+## v4.4.0 (Unreleased)
+
+### Backward-Compatible Changes
+
+- `array-callback-return` is now configured with the [`allowImplicit` option](https://eslint.org/docs/rules/array-callback-return#allowimplicit)
+
 ## v4.3.0 (2021-11-08)
 
 ### Backward-Compatible Changes
