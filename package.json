@@ -58,7 +58,6 @@
 		}
 	},
 	"dependencies": {
-		"@aduth/is-installed": "file:./packages/is-installed",
 		"deepmerge": "^4.2.2"
 	}
 }

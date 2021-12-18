@@ -4,6 +4,10 @@
 
 - `array-callback-return` is now configured with the [`allowImplicit` option](https://eslint.org/docs/rules/array-callback-return#allowimplicit)
 
+### Bug Fixes
+
+- Removed explicit file dependency to the internal `@aduth/is-installed` package to hopefully resolve install errors in some versions of NPM.
+
 ## v4.3.0 (2021-11-08)
 
 ### Backward-Compatible Changes
