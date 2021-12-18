@@ -40,4 +40,4 @@ The default configuration is optimized for ES2015+. The following variations are
 
 Copyright 2021 Andrew Duthie
 
-Released under the [MIT License](https://github.com/aduth/wping/tree/master/LICENSE.md).
+Released under the [MIT License](https://github.com/aduth/eslint-config/tree/master/LICENSE.md).
