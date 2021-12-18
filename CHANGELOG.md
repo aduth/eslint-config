@@ -1,4 +1,4 @@
-## v4.4.0 (Unreleased)
+## v4.4.0 (2021-12-18)
 
 ### Backward-Compatible Changes
 
