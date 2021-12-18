@@ -8,9 +8,6 @@
 		"./esnext": "./rules/esnext.js",
 		"./es5": "./rules/es5.js"
 	},
-	"workspaces": [
-		"./packages/*"
-	],
 	"keywords": [
 		"eslint",
 		"eslint-config"
@@ -29,8 +26,8 @@
 	},
 	"license": "MIT",
 	"peerDependencies": {
-		"@typescript-eslint/parser": ">=4.27.0",
 		"@typescript-eslint/eslint-plugin": ">=4.27.0",
+		"@typescript-eslint/parser": ">=4.27.0",
 		"eslint": ">=7.28.0",
 		"eslint-config-prettier": ">=8.3.0",
 		"eslint-plugin-jsdoc": ">=35.3.0",
@@ -58,6 +55,7 @@
 		}
 	},
 	"dependencies": {
+		"@aduth/is-dependency": "^1.0.0",
 		"deepmerge": "^4.2.2"
 	}
 }

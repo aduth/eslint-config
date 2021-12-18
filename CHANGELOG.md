@@ -1,3 +1,13 @@
+## v4.4.1 (Unreleased)
+
+### Bug Fixes
+
+- Extracts the internal `@aduth/is-installed` package to a published `@aduth/is-dependency` to resolve workspace install errors once and for all.
+
+### Documentation
+
+- Fix README link to license.
+
 ## v4.4.0 (2021-12-18)
 
 ### Backward-Compatible Changes
