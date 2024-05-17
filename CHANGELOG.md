@@ -1,4 +1,4 @@
-## Unreleased
+## v4.5.0 (2024-05-17)
 
 ### Improvements
 
