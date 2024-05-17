@@ -4,6 +4,10 @@
 
 - Use `'latest'` ECMAScript version for `esnext` ruleset
 
+### Backwards-Compatible Changes
+
+- Disable `no-undef` rule in `typescript` ruleset, as it's expected this would be enforced by TypeScript instead
+
 ## v4.4.1 (2021-12-18)
 
 ### Bug Fixes

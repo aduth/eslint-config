@@ -12,14 +12,15 @@ const config = {
 		'plugin:@typescript-eslint/eslint-recommended',
 	],
 	rules: {
-		'no-shadow': 'off',
-		'@typescript-eslint/no-shadow': 'error',
-		'no-unused-vars': 'off',
-		'@typescript-eslint/no-unused-vars': ['error'],
-		'@typescript-eslint/no-explicit-any': 'off',
-		'@typescript-eslint/no-non-null-assertion': 'off',
-		'@typescript-eslint/no-empty-function': 'off',
 		'@typescript-eslint/ban-ts-comment': 'off',
+		'@typescript-eslint/no-empty-function': 'off',
+		'@typescript-eslint/no-explicit-any': 'off',
+		'@typescript-eslint/no-shadow': 'error',
+		'@typescript-eslint/no-non-null-assertion': 'off',
+		'@typescript-eslint/no-unused-vars': ['error'],
+		'no-shadow': 'off',
+		'no-undef': 'off',
+		'no-unused-vars': 'off',
 	},
 };
 
