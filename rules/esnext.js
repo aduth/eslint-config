@@ -5,7 +5,7 @@ module.exports = deepmerge(
 	base,
 	/** @type {import('eslint').Linter.Config} */ ({
 		parserOptions: {
-			ecmaVersion: 2021,
+			ecmaVersion: 'latest',
 			sourceType: 'module',
 		},
 		env: {

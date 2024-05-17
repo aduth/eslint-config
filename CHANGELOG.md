@@ -1,3 +1,9 @@
+## Unreleased
+
+### Improvements
+
+- Use `'latest'` ECMAScript version for `esnext` ruleset
+
 ## v4.4.1 (2021-12-18)
 
 ### Bug Fixes
