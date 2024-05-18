@@ -11,6 +11,15 @@
 		"eslint",
 		"eslint-config"
 	],
+	"files": [
+		"rules/base.js",
+		"rules/es5.js",
+		"rules/esnext.js",
+		"rules/optional/index.js",
+		"rules/optional/jsdoc.js",
+		"rules/optional/prettier.js",
+		"rules/optional/typescript.js"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/aduth/eslint-config.git"
