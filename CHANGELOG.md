@@ -1,3 +1,9 @@
+## Unreleased
+
+### Backwards-Compatible Changes
+
+- Update `eqeqeq` to use [`smart` option](https://eslint.org/docs/latest/rules/eqeqeq#smart)
+
 ## v4.5.0 (2024-05-17)
 
 ### Improvements

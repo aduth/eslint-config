@@ -10,7 +10,7 @@ module.exports = deepmerge(
 			'constructor-super': 'error',
 			'default-case-last': 'error',
 			'dot-notation': 'error',
-			eqeqeq: 'error',
+			eqeqeq: ['error', 'smart'],
 			'for-direction': 'error',
 			'getter-return': 'error',
 			'line-comment-position': 'error',
@@ -69,5 +69,5 @@ module.exports = deepmerge(
 			'valid-typeof': 'error',
 		},
 	}),
-	optional
+	optional,
 );
