@@ -1,4 +1,4 @@
-## Unreleased
+## v4.6.0 (2024-06-22)
 
 ### Backwards-Compatible Changes
 
