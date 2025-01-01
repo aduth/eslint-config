@@ -1,3 +1,28 @@
+## Unreleased
+
+### Breaking Changes
+
+This release brings compatibility with [ESLint's new flat config file format](https://eslint.org/docs/latest/use/configure/migration-guide) introduced in ESLint v9.0.0.
+
+Peer dependencies have been increased:
+
+- Required peer dependencies:
+  - `eslint`: `>=9.5.0`
+- Optional peer dependencies:
+  - `eslint-config-prettier`: `>=9.1.0`
+  - `eslint-plugin-jsdoc`: `>=48.2.0`
+  - `eslint-plugin-prettier`: `>=5.1.0`
+  - `typescript-eslint`: `>=7.13.0`
+    - `typescript-eslint` replaces `@typescript-eslint/eslint-plugin` and `@typescript-eslint/parser`
+
+New rules have been enabled which may identify issues in existing code:
+
+- Base rules
+  - [`no-new-native-nonconstructor`](https://eslint.org/docs/latest/rules/no-new-native-nonconstructor)
+  - [`@stylistic/js/no-multiple-empty-lines`](https://eslint.style/rules/js/no-multiple-empty-lines)
+- TypeScript rules
+  - [`@typescript-eslint/consistent-type-imports`](https://typescript-eslint.io/rules/consistent-type-imports/)
+
 ## v4.6.0 (2024-06-22)
 
 ### Backwards-Compatible Changes

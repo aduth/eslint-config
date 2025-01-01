@@ -1,10 +1,9 @@
-const deepmerge = require('deepmerge');
-const base = require('./base.js');
+import base from './base.js';
 
-module.exports = deepmerge(
-	base,
+export default [
+	...base,
 	/** @type {import('eslint').Linter.Config} */ ({
-		parserOptions: {
+		languageOptions: {
 			ecmaVersion: 5,
 		},
 		rules: {
@@ -17,5 +16,5 @@ module.exports = deepmerge(
 			'one-var-declaration-per-line': ['error', 'initializations'],
 			'vars-on-top': 'error',
 		},
-	})
-);
+	}),
+];

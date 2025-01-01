@@ -1,9 +1,19 @@
-const deepmerge = require('deepmerge');
-const optional = require('./optional/index.js');
+import stylisticJs from '@stylistic/eslint-plugin-js';
+import optional from './optional/index.js';
 
-module.exports = deepmerge(
+export default [
 	/** @type {import('eslint').Linter.Config} */ ({
+		plugins: {
+			'@stylistic/js': stylisticJs,
+		},
 		rules: {
+			'@stylistic/js/line-comment-position': 'error',
+			'@stylistic/js/no-multiple-empty-lines': 'error',
+			'@stylistic/js/padding-line-between-statements': [
+				'error',
+				{ blankLine: 'always', prev: 'case', next: 'case' },
+			],
+			'@stylistic/js/spaced-comment': 'error',
 			'array-callback-return': ['error', { allowImplicit: true }],
 			'block-scoped-var': 'error',
 			camelcase: 'error',
@@ -13,7 +23,6 @@ module.exports = deepmerge(
 			eqeqeq: ['error', 'smart'],
 			'for-direction': 'error',
 			'getter-return': 'error',
-			'line-comment-position': 'error',
 			'new-cap': ['error', { capIsNew: false, newIsCap: true }],
 			'no-bitwise': 'error',
 			'no-console': 'error',
@@ -39,7 +48,7 @@ module.exports = deepmerge(
 			'no-negated-condition': 'error',
 			'no-nested-ternary': 'error',
 			'no-new': 'error',
-			'no-new-symbol': 'error',
+			'no-new-native-nonconstructor': 'error',
 			'no-obj-calls': 'error',
 			'no-sparse-arrays': 'error',
 			'no-redeclare': 'error',
@@ -57,17 +66,12 @@ module.exports = deepmerge(
 			'no-useless-escape': 'error',
 			'no-useless-return': 'error',
 			'operator-assignment': 'error',
-			'padding-line-between-statements': [
-				'error',
-				{ blankLine: 'always', prev: 'case', next: 'case' },
-			],
 			'prefer-const': 'error',
 			'require-await': 'error',
 			'require-yield': 'error',
-			'spaced-comment': 'error',
 			'use-isnan': 'error',
 			'valid-typeof': 'error',
 		},
 	}),
-	optional,
-);
+	...optional,
+];

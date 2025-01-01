@@ -1,15 +1,11 @@
-const deepmerge = require('deepmerge');
-const base = require('./base.js');
+import base from './base.js';
 
-module.exports = deepmerge(
-	base,
+export default [
+	...base,
 	/** @type {import('eslint').Linter.Config} */ ({
-		parserOptions: {
+		languageOptions: {
 			ecmaVersion: 'latest',
 			sourceType: 'module',
-		},
-		env: {
-			es6: true,
 		},
 		rules: {
 			// Disable ES5
@@ -21,5 +17,5 @@ module.exports = deepmerge(
 			'no-var': 'error',
 			'prefer-spread': 'error',
 		},
-	})
-);
+	}),
+];

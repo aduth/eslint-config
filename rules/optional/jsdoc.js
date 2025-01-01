@@ -1,7 +1,7 @@
-const dependencies = ['eslint-plugin-jsdoc'];
+import jsdoc from 'eslint-plugin-jsdoc';
 
-const config = {
-	plugins: ['jsdoc'],
+export default {
+	plugins: { jsdoc },
 	settings: {
 		jsdoc: {
 			tagNamePreference: {
@@ -26,5 +26,3 @@ const config = {
 		'jsdoc/require-returns-type': 'error',
 	},
 };
-
-module.exports = { dependencies, config };

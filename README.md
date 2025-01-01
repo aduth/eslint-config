@@ -14,17 +14,22 @@ The following peer dependencies are optional and will enable additional rules wh
 
 - JSDoc: `eslint-plugin-jsdoc`
 - Prettier: `eslint-plugin-prettier` and `eslint-config-prettier`
-- TypeScript: `@typescript-eslint/eslint-plugin` and `@typescript-eslint/parser`
+- TypeScript: `typescript-eslint`
 
 ## Usage
 
-```json
-{
-	"extends": "@aduth/eslint-config"
-}
+```js
+import baseConfig from '@aduth/eslint-config';
+
+export default [
+	...baseConfig,
+	{
+		// Add project specific overrides, if applicable.
+	},
+];
 ```
 
-Refer to the [ESLint guide on Extending Configuration Files](https://eslint.org/docs/user-guide/configuring#extending-configuration-files).
+Refer to the [ESLint guide on Using a Shareable Config](https://eslint.org/docs/latest/extend/shareable-configs#using-a-shareable-config).
 
 The configuration includes only rules. You will need to provide environment and plugin settings as appropriate.
 
@@ -38,6 +43,6 @@ The default configuration is optimized for ES2015+. The following variations are
 
 ## License
 
-Copyright 2021 Andrew Duthie
+Copyright 2025 Andrew Duthie
 
 Released under the [MIT License](https://github.com/aduth/eslint-config/tree/master/LICENSE.md).

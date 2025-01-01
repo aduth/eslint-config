@@ -1,10 +1,3 @@
-const dependencies = ['eslint-plugin-prettier', 'eslint-config-prettier'];
+import prettier from 'eslint-plugin-prettier/recommended';
 
-const config = {
-	plugins: ['prettier'],
-	rules: {
-		'prettier/prettier': 'error',
-	},
-};
-
-module.exports = { dependencies, config };
+export default [prettier];
