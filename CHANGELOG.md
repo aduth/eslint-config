@@ -1,3 +1,9 @@
+## Unreleased
+
+### Backwards-Compatible Changes
+
+- [`prefer-const`](https://eslint.org/docs/latest/rules/prefer-const) now configures [`destructuring: 'all'`](https://eslint.org/docs/latest/rules/prefer-const#destructuring) to allow destructuring into `let` assignment.
+
 ## v5.0.0 (2025-01-01)
 
 ### Breaking Changes

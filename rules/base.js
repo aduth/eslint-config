@@ -66,7 +66,7 @@ export default [
 			'no-useless-escape': 'error',
 			'no-useless-return': 'error',
 			'operator-assignment': 'error',
-			'prefer-const': 'error',
+			'prefer-const': ['error', { destructuring: 'all' }],
 			'require-await': 'error',
 			'require-yield': 'error',
 			'use-isnan': 'error',
